@@ -139,8 +139,8 @@ export const COPY = {
   'join.qrAlt': { zh: 'MissionHub 飞书交流群二维码', en: 'MissionHub Feishu group QR code' },
 
   'footer.tagline': {
-    zh: '聚焦 Linux、Yocto Project 与 Zephyr，共建关键任务开源底座。',
-    en: 'Focused on Linux, Yocto Project and Zephyr for mission-critical open source.',
+    zh: '聚焦 Linux、Yocto 与 Zephyr，共建关键任务开源底座。',
+    en: 'Focused on Linux, Yocto and Zephyr for mission-critical open source.',
   },
   'footer.col1': { zh: '社区', en: 'Community' },
   'footer.col2': { zh: '方向', en: 'Tracks' },
