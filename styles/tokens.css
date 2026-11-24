@@ -1,0 +1,74 @@
+/* SPDX-FileCopyrightText: Copyright (c) 2026 MissionHub Open Source Community */
+/* SPDX-License-Identifier: MIT */
+
+:root {
+  color-scheme: light;
+
+  /* Editorial light surfaces (Process Mission heritage) */
+  --c-bg: #F6F6F4;
+  --c-surface: #EDEDEA;
+  --c-panel: #FCFCFB;
+  --c-paper: #EEECE1;
+  --c-ink: #141414;
+  --c-ink-2: #3A3A38;
+  --c-muted: #5F5F5C;
+  --c-line: #DADAD6;
+
+  /* Forge obsidian surfaces (MFCP heritage) */
+  --c-dark: #111111;
+  --c-dark-2: #191918;
+  --c-dark-panel: #1C1B19;
+  --c-dark-ink: #F3F2ED;
+  --c-dark-muted: #B3B1AA;
+  --c-dark-line: rgba(255, 255, 255, 0.13);
+
+  /* Brand signal crimson + forge ember + guild brass */
+  --c-red: #C30003;
+  --c-red-deep: #B22600;
+  --c-ember: #E84C22;
+  --c-ember-soft: #FF6B52;
+  --c-brass: #D5A657;
+  --c-brass-soft: #F1D396;
+
+  /* Typography */
+  --f-display: "SF Pro Display", "Helvetica Neue", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Noto Sans SC", "Segoe UI", sans-serif;
+  --f-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", "Segoe UI", sans-serif;
+  --f-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  /* Type scale */
+  --t-xs: 0.8125rem;
+  --t-sm: 0.9375rem;
+  --t-base: 1.03125rem;
+  --t-lg: 1.15rem;
+  --t-xl: clamp(1.3rem, 1.05rem + 0.8vw, 1.65rem);
+  --t-2xl: clamp(1.6rem, 1rem + 1.85vw, 2.625rem);
+  --t-hero: clamp(1.68rem, 0.95rem + 2.4vw, 3.35rem);
+
+  /* Spacing scale */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+  --s-7: 48px;
+  --s-8: 64px;
+  --s-9: 92px;
+  --s-10: 120px;
+
+  /* Layout */
+  --page-max: 1260px;
+  --gutter: clamp(18px, 2.4vw, 32px);
+  --page-pad: clamp(20px, 4.5vw, 48px);
+  --header-h: 72px;
+  --radius-sm: 3px;
+  --radius: 6px;
+  --radius-lg: 12px;
+
+  /* Motion */
+  --dur-fast: 180ms;
+  --dur-mid: 280ms;
+  --dur-reveal: 460ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-sweep: cubic-bezier(0.22, 1, 0.36, 1);
+}
