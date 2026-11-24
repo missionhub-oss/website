@@ -1,0 +1,10 @@
+MissionHub Open Source Community Website
+Copyright (c) 2026 MissionHub Open Source Community
+
+This repository includes official mascot assets under `assets/mascot/`
+from `missionhub-oss/mascot`, distributed under the Apache License 2.0:
+https://github.com/missionhub-oss/mascot
+
+Partner marks under `assets/partners/` and shared MFCP community assets
+originate from `missionhub-oss/mfcp` (MIT License) and remain the property
+of their respective organizations.
